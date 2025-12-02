@@ -19,6 +19,109 @@
 
 ---
 
+#### **1. Introduction to Multithreading**
+
+* 1.1 What is Multithreading?
+* 1.2 Process vs Thread
+* 1.3 Benefits and Challenges of Multithreading
+* 1.4 Types of Parallelism (Data vs Task Parallelism)
+
+---
+
+#### **2. C++11 Thread Support Library**
+
+* 2.1 Overview of `<thread>` Header
+* 2.2 Creating and Starting Threads
+* 2.3 Passing Arguments to Threads
+* 2.4 Thread Lifecycle and `join()` vs `detach()`
+
+---
+
+#### **3. Thread Management**
+
+* 3.1 Checking Thread Joinable State (`joinable()`)
+* 3.2 Hardware Concurrency (`hardware_concurrency()`)
+* 3.3 Thread IDs (`get_id()`)
+* 3.4 Thread Synchronization Challenges (Race Conditions, Deadlock)
+
+---
+
+#### **4. Synchronization Mechanisms**
+
+* 4.1 `std::mutex`
+* 4.2 `std::lock_guard`
+* 4.3 `std::unique_lock`
+* 4.4 `std::scoped_lock` (C++17)
+* 4.5 `std::shared_mutex` (C++17)
+* 4.6 Recursive Mutex (`recursive_mutex`)
+* 4.7 `std::timed_mutex`
+
+---
+
+#### **5. Condition Variables**
+
+* 5.1 Introduction to Condition Variables
+* 5.2 `std::condition_variable`
+* 5.3 `wait()`, `notify_one()`, `notify_all()`
+* 5.4 Producer-Consumer Problem
+
+---
+
+#### **6. Atomics and Memory Model**
+
+* 6.1 What is `std::atomic`?
+* 6.2 Atomic Types and Operations
+* 6.3 Compare-and-Swap (CAS)
+* 6.4 Atomic Flags and Spinlocks
+* 6.5 Memory Ordering and Visibility (Relaxed, Release-Acquire, Sequential Consistency)
+
+---
+
+#### **7. Advanced Threading Concepts**
+
+* 7.1 Deadlocks: Causes and Solutions
+* 7.2 Livelock and Starvation
+* 7.3 Thread-Safe Data Structures
+* 7.4 Thread Pools (Introduction)
+
+---
+
+#### **8. Asynchronous Programming**
+
+* 8.1 `std::async`
+* 8.2 `std::future` and `std::promise`
+* 8.3 `packaged_task`
+* 8.4 Exception Handling in Async Operations
+
+---
+
+#### **9. Parallel Algorithms (C++17 and newer)**
+
+* 9.1 Parallel Execution Policies (`std::execution`)
+* 9.2 Parallel STL Examples (Sort, Reduce, For_each)
+* 9.3 Performance Considerations
+
+---
+
+#### **10. Best Practices & Common Pitfalls**
+
+* 10.1 When to Use Threads
+* 10.2 Avoiding Shared Mutable State
+* 10.3 Debugging Multithreaded Applications
+* 10.4 Tools and Profilers
+
+---
+
+#### **11. Real-World Examples**
+
+* 11.1 Logger System with Thread Safety
+* 11.2 Thread Pool Implementation
+* 11.3 Producer-Consumer Queue
+* 11.4 Parallel File Processing
+
+
+---
+
 # C++ Multithreading Concepts
 
 ---
